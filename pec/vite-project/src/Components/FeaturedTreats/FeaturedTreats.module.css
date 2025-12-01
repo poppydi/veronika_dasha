@@ -1,0 +1,74 @@
+.featuredTreats {
+    padding: 80px 120px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #222;
+  }
+  
+  .treatsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .treatCard {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .treatCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .imageWrapper {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .treatImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .treatCard:hover .treatImage {
+    transform: scale(1.05);
+  }
+  
+  .info {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+  }
+  
+  .name {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #9a4d2d;
+  }
+  
+ 
